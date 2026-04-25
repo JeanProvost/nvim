@@ -78,6 +78,12 @@ return {
     end,
   },
 
+  -- ## LuaSnip ##
+  {
+    'L3MON4D3/LuaSnip',
+    build = 'make install_jsregexp',
+  },
+
   -- ## Autocompletion Engine (nvim-cmp) ##
   {
     'hrsh7th/nvim-cmp',

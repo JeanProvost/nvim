@@ -49,7 +49,7 @@ dap.configurations.cs = {
       -- dap.listeners.after.event_exited["cleanup"] = cleanup_delve_binary
 
       -- Keymap for toggling the UI
-      vim.keymap.set("n", "<leader>du", function() require("dapui").toggle() end, { desc = "Debug: Toggle UI" })
+      vim.keymap.set("n", "<leader>uu", function() require("dapui").toggle() end, { desc = "Debug: Toggle UI" })
     end,
   },
 
