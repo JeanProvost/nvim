@@ -3,6 +3,7 @@
 -- Set highlight on search
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+vim.opt.conceallevel = 1 -- For obsidian clearer UI
 
 -- Make line numbers default
 -- vim.opt.number = true

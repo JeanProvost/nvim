@@ -6,8 +6,10 @@ return {
       -- add any options here
       cli = {
         mux = {
-          backend = "zellij",
-          enabled = true,
+          enabled = false,
+        },
+        layout = {
+          width = 0.2,
         },
       },
     },

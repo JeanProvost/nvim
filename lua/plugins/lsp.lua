@@ -14,7 +14,7 @@ return {
     -- lazy.nvim will automatically call `.setup(opts)` with the table below
     opts = {
       -- A list of servers to automatically install
-      ensure_installed = { "lua_ls", "gopls", "csharp_ls", "pyright", "sqlls" },
+      ensure_installed = { "lua_ls", "gopls", "csharp_ls", "pyright", "sqlls", "marksman" },
       -- The setup for each server
       handlers = {
         -- This is the default handler. It is called for every server that is not explicitly handled below.

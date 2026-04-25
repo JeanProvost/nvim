@@ -19,6 +19,8 @@ return {
 				'javascript',
 				'typescript',
 				'html',
+        'markdown',
+        'markdown_inline'
 			},
 
 			-- Install parsers synchronously (blocks UI on first install)
