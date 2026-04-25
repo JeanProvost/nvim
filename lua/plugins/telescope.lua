@@ -13,7 +13,7 @@ return {
       extensions = {
         project = {
           base_dirs = {
-            '~/source/repos',
+            '/Users/jeanprovost/Repositories',
           },
           hidden_files = true,
         },
